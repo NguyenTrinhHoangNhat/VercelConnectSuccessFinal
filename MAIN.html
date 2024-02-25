@@ -1,0 +1,448 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Nhóm 7 </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Itim|Lobster|Montserrat:500|Noto+Serif|Nunito|Patrick+Hand|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab|Saira" rel="stylesheet">
+	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<a href="MAIN.html"><img src="logo.png" width="125px"></a>
+				</div>
+				<nav>
+					<ul id="menuItems">
+						<li><a href="MAIN.html">Trang Chủ</a></li>
+						<li><a href="sanPham.html">Sản phẩm</a></li>
+						<li><a href= "#bottom">Về chúng tôi</a></li>
+						<li><a href="dangNhap.html">Tài khoản</a></li>
+					</ul>
+				</nav>
+				<a href="donMuaHang.html"><img src="cart.png" width="30px" height="30px"></a>
+				<img src="menu.png" class="menu-icon" onclick="menuToggle();">
+			</div>
+			<div class="row">
+				<div class="col-2">
+					<h1>Bán hàng điện tử giá rẻ !</h1>
+					<p>Hiện nay, đồ điện tử đang là một trong những vật dụng thiết yếu được sử dụng <br>phổ biến. Website của chúng tôi sẽ giới thiệu đến bạn những món đồ điện tử <br>giá rẻ, tốt nhất trên thị trường.
+					</p>
+					<a href="sanPham.html" class="btn">Xem các sản phẩm &#8594;</a>
+				</div>
+				<div class="col-2">
+					<img src="anhBia.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!----------------Slideshow container--------------->
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<img src="maygiatautoslide.jpg" style="width:100%;height:400px;">
+		</div>
+		<div class="mySlides fade">
+			<img src="laptopautoslide.jpg" style="width:1300px;height:400px;">
+		</div>
+
+		<div class="mySlides fade">
+			<img src="lap2.jpg" style="width:1300px;height:400px;">
+		</div>
+		 <!-- nut  -->
+  		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>	
+	<!-- The dots/circles -->
+		<div style="text-align:center">
+ 			<span class="dot" onclick="currentSlide(1)"></span>
+  			<span class="dot" onclick="currentSlide(2)"></span>
+ 			<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+
+<br>
+	<!------------------BANNER---------------------->
+<div class="right-banner">
+  	<a href="chiTietSanPham.html"><img src= "images/iphone13_XOAY.gif" alt="Right banner image"></a>
+</div>
+<div class="left-banner">
+	<a href="chiTietSanPham.html"><img src="images/iphone13_XOAY.gif" alt="Left banner image"></a>
+</div>
+	<!----------------Sản phẩms--------------->
+
+	<div class="small-container">
+		<h2 class="title">Sản phẩm bán chạy</h2>
+		<div class="row">
+			<div class="col-4">
+				<a href="chiTietSanPham_IP13_mauXanh.html"><img src="images/iphone-13-blue-1-600x600.webp" style="width:200px;height:200px;"></a>
+				<h4>iPhone 13 256GB</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+				</div>
+				<p> 19.990.000₫<small>-25%</small></p>
+			</div>
+			<div class="col-4">
+				<a href="ChiTietSanPham2_Ipad_mauXanhDuong.html"><img src="images/iPad-gen-10-1-600x600.webp" style="width:200px;height:200px;"></a>
+				<h4>iPad 10 WiFi 64GB</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+				</div>
+				<p>11.390.000₫&nbsp;<small>-12%</small></p>
+			</div>
+			<div class="col-4">
+				<a href="ChiTietSanPham4_Asus TUF Gaming F15.html"><img src="images/asus-tuf-gaming-fx517ze-i5-hn045w-(22).webp" style="width:200px;height:200px;"></a>
+				<h4>Asus Gaming TUF Dash F15 FX517ZE i5 12450H (HN045W)</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>23.990.000₫&nbsp;<small>-20%</small></p>
+			</div>
+			<div class="col-4">
+				<a href="ChiTietSanPham12_Iphone14_mauDo.html"><img src="images/iPhone-14-thumb.webp" style="width:200px;height:200px;"></a>
+				<h4>Điện thoại iPhone 14 512GB</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>27.490.000₫&nbsp;<small>-8%</small></p>
+			</div>
+		</div>
+
+		<h2 class="title">Sản phẩm mới nhất</h2>
+		<div class="row">
+			<div class="col-4">
+				<a href="ChiTietSanPham3_Laptop Asus Gaming TUF Dash.html"><img src="images/asus-tuf-gaming-fx507zc-i7-12700h-8gb-512gb-4gb-280322-021747-600x600.webp" style="width:200px;height:200px;"></a>
+				<h4>Asus TUF Gaming F15 FX507ZC i7 12700H (HN124W)</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>28.240.000₫<small>-13%</small></p>
+			</div>
+			<div class="col-4">
+				<a href="ChiTietSanPham5_AppleWatch_MauTrang.html"><img src="images/apple-watch-s8-41mm-trang-kem-thumb-1-600x600.webp" style="width:200px;height:200px;"></a>
+				<h4>Apple Watch màu trắng</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>9.790.000₫<small>-18%</small></p>
+			</div>
+			<div class="col-4">
+				<a href="ChiTietSanPham6_realme_vang.html"><img src="images/realme-c35-vang-thumb-600x600.webp" style="width:200px;height:200px;"></a>
+				<h4>Realme C55 6GB</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>4.990.000₫</p>
+			</div>
+			<div class="col-4">
+				<a href="ChiTietSanPham7_XanhLa.html"><img src="images/xiaomi-redmi-12c-blue-thumb-600x600.webp" style="width:200px;height:200px;"></a>
+				<h4>Xiaomi Redmi 12C 128GB</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>3.590.000₫<small>-10%</small></p>
+			</div>
+			<div class="col-4">
+				<a href="ChiTietSanPham8_Mozard.html"><img src="images/bluetooth-true-wireless-mozard-ts11-mini-avatar-1-1-600x600.webp" style="width:200px;height:200px;"></a>
+				<h4>Tai nghe Bluetooth True Wireless Mozard TS11 mini</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>790.000₫</p>
+			</div>
+			<div class="col-4">
+				<a href="ChiTietSanPham9_Anker PowerCore.html"><img src="images/sac-du-phong-10000mah-anker-powercore-select-a1223-thumb-600x600.webp" style="width:200px;height:200px;"></a>
+				<h4>Anker PowerCore Select A1223</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>410.000₫<small>-40%</small></p>
+			</div>
+			<div class="col-4">
+				<a href="ChiTietSanPham10_Sạc Apple.html"><img src="images/adapter-sac-5w-cho-iphone-ipad-ipod-apple-mgn13-thumb-600x600.webp" style="width:200px;height:200px;"></a>
+				<h4>Sạc Apple MGN13</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>270.000₫<small>-40%</small></p>
+			</div>
+			<div class="col-4">
+				<a href="ChiTietSanPham11_Itel ISW.html"><img src="images/dong-ho-itel-isw-41-thumbnew-600x600.webp"  style="width:200px;height:200px;"></a>
+				<h4>Itel ISW-41 47mm dây silicone</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>690.000₫<small>-50%</small></p>
+			</div>
+		</div>
+
+		<!------------------SẢN PHẨM ĐÁNH GIÁ CAO NHẤT---------------------->
+		<div class="offer">
+			<div class="small-container">
+				<div class="row">
+					<div class="col-2">
+						<img src="images/iphone13PRO.png" class="offer-img">
+					</div>
+					<div class="col-2">
+						<p>Sản phẩm được đánh giá cao nhất!</p>
+						<h1>IPHONE 13 PRO MAX</h1>
+						<small>Sản phẩm được giới trẻ ưa chuộng. Được thừa hưởng thiết kế của iPhone 12 Pro Max với khung viền vuông vức bằng thép, mặt lưng kính cùng màn hình "tai thỏ" đặc trưng của iPhone gần đây.
+						Phần tai thỏ của iPhone 13 Pro Max được thu gọn lại 20% so với thế hệ trước giúp giải phóng nhiều không gian hơn để hiển thị và mặt trước trở nên hấp dẫn hơn.</small><br>
+						<a href="chiTietSanPham.html" class="btn">MUA NGAY &#8594;</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-----------------KHÁCH HÀNG ĐÁNH GIÁ------------------------>
+	<div class="testimonial">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-3">
+					<i class="fa fa-quote-left" aria-hidden="true"></i>
+					<p>Tôi thấy đây là một trong những website bán hàng điện tử uy tín nhất mà tôi từng được biết. Sản phẩm ở đây quá tuyệt vời và có giá cả phải chăng.</p>
+					<div class="rating">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+					</div>
+					<img src="khachHang1.png">
+					<h3>Tôm Hà Lan</h3>
+				</div>
+
+				<div class="col-3">
+					<i class="fa fa-quote-left" aria-hidden="true"></i>
+					<p>I adore the design and placement of your website. The goods are both excellent and affordable. I give your website five stars.</p>
+					<div class="rating">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+					</div>
+					<img src="images/khachHang3.webp">
+					<h3>John Wick</h3>
+				</div>
+
+				<div class="col-3">
+					<i class="fa fa-quote-left" aria-hidden="true"></i>
+					<p>
+						Everyone experiences numerous ups and downs, but the life of an artist is much tougher to take than you may imagine. Come up here to "taste" the 4 words of brilliant aura and learn what it is if you enjoy money and aura.
+					</p>
+					<div class="rating">
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star-half-o" aria-hidden="true"></i>
+					</div>
+					<img src="images/khachHang2.webp">
+					<h3>Mr.Private</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!----------Thương hiệu--------------->
+	<div class="brands">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-5">
+					<a href="sanPhamIntel.html"><img src="itel.png"></a>
+				</div>
+				<div class="col-5">
+					<a href="sanPhamApple.html"><img src="apple.png"></a>
+				</div>
+				<div class="col-5">
+					<a href="sanPhamDell.html"><img src="dell.png"></a>
+				</div>
+				<div class="col-5">
+					<a href="sanPhamAsus.html"><img src="asusRog.png"></a>
+				</div>
+				<div class="col-5">
+					<a href="sanPhamAnker.html"><img src="anker.png"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-----------Footer------------->
+	<div class="footer" id="bottom">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Bài tập điện toán đám mây</h3>
+					<p>Web được thực hiện bởi nhóm 7</p>
+				</div>
+				<div class="footer-col-2">
+					<img src="logo.png">
+					<p>Giáo viên phụ trách: Phạm Tuấn Khiêm</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Thông tin thành viên nhóm:</h3>
+					<ul>
+						<li>2001216003-Nguyễn Trịnh Hoàng Nhật</li>
+						<li>2001210210-Lê Ngọc Đình Trí</li>
+						<li>2001207333-Triệu Phú Sang</li>
+						<li>2001207062-Đặng Thanh Huy</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Liên hệ chúng tôi:</h3>
+					<ul>
+						<a href="#"><li>Facebook</li></a>
+						<a href="https://zalo.me/pc"><li>Zalo</li></a>
+						<a href="#"><li>Youtube</li></a>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<p class="Copyright">Copyright 2023 - Nhóm 7</p>
+		</div>
+	</div>
+
+	<script>
+		var menuItems = document.getElementById("menuItems");
+		menuItems.style.maxHeight = "0px";
+		function menuToggle() {
+			if (menuItems.style.maxHeight == "0px") {
+				menuItems.style.maxHeight = "200px";
+			}
+			else {
+				menuItems.style.maxHeight = "0px";
+			}
+		}
+	</script>
+	<!------------JS CHO SLIDESHOW--------------------->
+	<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+  			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+  			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+  			let i;
+  			let slides = document.getElementsByClassName("mySlides");
+			  let dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+</script>
+<!-----------------JS CHO BANNER TRAI VA PHAI------------------>
+	<script>
+		var rightBanner = document.querySelector('.right-banner');
+		var leftBanner = document.querySelector('.left-banner');
+		var scrollShowHeight = 1000; 
+		var scrollHideHeight = 3000; 
+
+		window.addEventListener('scroll', function() {
+		  var scrollPosition = window.scrollY;
+
+		  if (scrollPosition > scrollShowHeight && scrollPosition < scrollHideHeight) {
+			rightBanner.classList.add('show');
+			leftBanner.classList.add('show');
+		  } else {
+			rightBanner.classList.remove('show');
+			leftBanner.classList.remove('show');
+		  }
+
+		  if (scrollPosition > scrollHideHeight) {
+			rightBanner.classList.add('hide');
+			leftBanner.classList.add('hide');
+		  } else {
+			rightBanner.classList.remove('hide');
+			leftBanner.classList.remove('hide');
+		  }
+		});
+
+		var closeBtns = document.querySelectorAll('.close-btn');
+
+		closeBtns.forEach(function(btn) {
+		  btn.addEventListener('click', function() {
+			var banner = this.closest('.right-banner, .left-banner');
+			banner.classList.remove('show');
+		  });
+		});
+	</script>
+	
+	<script>
+		window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+	  </script>
+	  <script defer src="/_vercel/insights/script.js"></script>
+
+	  <script>
+		window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+	  </script>
+	  <script defer src="/_vercel/speed-insights/script.js"></script>
+</body>
+</html>
